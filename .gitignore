@@ -305,8 +305,11 @@ scratch
 *.tfvars
 .terraform*
 .terraform/
+.claude
 
 #Ignore dev notebooks
 dev_notebooks/
 credentials.json
 token.json
+.pre-commit-config.yaml
+.secrets.baseline
